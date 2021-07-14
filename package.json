@@ -1,0 +1,24 @@
+{
+  "name": "nodedebug",
+  "version": "1.0.0",
+  "description": "just a vscode debugging course",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "nodemon --inspect ./src/index.js",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoCury/NodeDebug.git"
+  },
+  "author": "Rodrigo Cury",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RodrigoCury/NodeDebug/issues"
+  },
+  "homepage": "https://github.com/RodrigoCury/NodeDebug#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
